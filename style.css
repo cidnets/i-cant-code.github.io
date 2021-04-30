@@ -1,0 +1,357 @@
+/* CSS files add styling rules to your content */
+<html>
+<head>
+<style>
+
+.p1 {font-family: 'Montserrat Alternates', sans-serif;}
+.p3 {font-family: 'Roboto Slab', serif;}
+.p2 {font-family: 'Shippori Mincho B1', serif;}
+.p4 {font-family: 'Josefin Slab', serif;}
+
+.material-icons-outlined {
+  color: rgba (255,255,255,1)
+}
+
+.breakitup {
+  display: block;
+  height: 57px;
+  line-height: 57px;
+  background-color: #ffffff;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10%;
+  border-width: 0 0 3px 0;
+  border-style: dashed solid dashed solid;
+  border-color: #e4e4e4;
+}
+
+/* Icons */
+[class^="icon"] {
+  position: relative;
+  color: #222222;
+  vertical-align: text-bottom;
+  filter: invert(11%) sepia(9%) saturate(0%) hue-rotate(147deg) brightness(99%) contrast(95%);
+}
+
+.icolinks {
+  line-height: 1.8;
+}
+.icon-phone {
+  height: 22px;
+  margin: 0 2px;
+  vertical-align: text-bottom;
+}
+.icon-email {
+  height: 22px;
+  margin: 0 2px;
+  vertical-align: text-bottom;
+}
+.icon-linkedin {
+  height: 22px;
+  margin: 0 2px;
+  vertical-align: text-bottom;
+}
+.icon-fb {
+  height: 25px;
+  margin: 0 0 0 1px;
+  vertical-align: text-bottom;
+}
+.icon-insta {
+  height: 22px;
+  margin: 0 2px;
+  vertical-align: text-bottom;
+}
+
+/* Navbar */
+.lowerplease {
+  margin-top: 50%;
+}
+
+.tiny-tiger{
+  height: 40px;
+  overflow: hidden;
+  text-align: right;
+  padding-right: 0;
+}
+
+a.name {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+a.porto {
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navbar {
+  display: block;
+  list-style-type: none;
+  background-color: #ffffff;
+  margin: 0;
+  width: 16%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  border: 1px solid #eeeeee00;
+  z-index: 10;
+  }
+
+.nav a{
+  display: block;
+  color: #ff7a00;
+  text-align: right;
+  padding: 6px 50px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 1em;
+}
+
+.nav a:hover {
+  color: #111111;
+  text-decoration: underline;
+  text-decoration-color: #ff7a0000;
+  }
+
+.active {
+  color: #111111;
+  text-decoration: underline;
+  text-decoration-color: #111111;
+}
+
+.pleaseworkimbegging a{
+  color: #ff7a00ff;
+  text-align: right;
+  display: block;
+  margin: 0;
+  padding-right: 50px;
+  overflow: auto;
+}
+.pleaseworkimbegging a:hover{
+  text-decoration: none;
+  color: #ff7a00ff;
+}
+
+/*Idk text things*/
+body {
+  font-family: 'Shippori Mincho B1', serif;
+  font-size: 16px;
+  background: #ffffff;
+  color: #222222;
+  text-align: Left;
+  margin: 2% 0 0 16%;
+  line-height: 1.5em;
+  }
+
+h1 {
+  font-weight: 500;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 27px;
+  line-height: normal;
+}
+
+h2 {
+  font-weight: 400;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 22px;
+  line-height: normal;
+}
+
+h3 {
+  font-weight: 400;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: normal;
+}
+
+.footer { 
+  color: white;
+  font-size: 14px;
+  margin: 300px 0 0 0;
+  padding: 5% 5%;
+  display: block;
+  background-color: #555555;
+}
+p.footer-text {
+  margin: 0 5%;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #111111;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #77777785;
+}
+
+a:hover {
+  color: #999999;
+}
+
+section {
+  margin: 0 5% 10% 5%;
+  overflow-wrap: normal;
+}
+
+figcaption {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 12px;
+  padding: 2px;
+  text-align: center;
+}
+
+[class=^"icantreadthis"] {
+  margin-left: 0;
+  overflow: auto;
+}
+.icantreadthis-one {
+  width: 65%;
+  margin-left: 0;
+}
+
+.pleaselistentome {
+  margin: 0 5% 10% 5%;
+}
+
+.isthisright {
+  margin: 0 20%;
+  width: 60%;
+  height: 10%;
+  color: white;
+  text-align: center;
+  position: fixed;
+  overflow: auto;
+}
+
+div.tab {
+  text-indent: 43px;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: auto 50% auto;
+  margin-top: 8%;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 30% 50% auto;
+  margin-top: 8%;
+  margin-right: 0;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.box2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* Lightbox things */
+.gallery {
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: auto;
+}
+.thumb {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+  margin: 4px;
+  border: none;
+}
+
+.lightbox {
+    position: fixed;
+    z-index: 999;
+    height: 0;
+    width: 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+  margin: 2% 0 0;
+    opacity: 100%;
+}
+
+.lightbox:target {
+    /* Remove default browser outline */
+    outline: none;
+    width: 100%;
+    height: 100%;
+    opacity: 1 !important;
+    
+}
+
+.lightbox:target img {
+    border: solid 10px rgba(77, 77, 77);
+    opacity: 1;
+    webkit-transition: opacity 0.6s;
+    transition: opacity 0.6s;
+}
+
+.light-button {
+  color: #ffffff;
+  background-color: #00000080;
+  opacity: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 1px;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: middle;
+  position: absolute;
+  top: 45%;
+  z-index: 99;
+}
+
+.light-button:hover {
+  background-color: #111111;
+  opacity: 100%;
+}
+
+.button-prev {
+    left: 7%;
+  opacity: 100%;
+}
+
+.button-next {
+    right: 7%;
+  opacity: 100%;
+}
+
+.button-close {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    color: #fafafa;
+    background-color: #b3010d80;
+    border: none;
+    padding: 7px 7px;
+    border-radius: 1px;
+    text-decoration: none;
+}
+
+.button-close:hover {
+    background-color: #740404;
+}
+
+</style>
