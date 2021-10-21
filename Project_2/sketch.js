@@ -41,8 +41,8 @@ function preload(){
 
 
 function setup() {
-  wwidth = windowWidth*(1/5);
-  wheight = windowWidth*(3/4)*(1/5);
+  wwidth = windowWidth*(2/3);
+  wheight = windowWidth*(3/4)*(2/3);
   cardheight = wheight*(1/3);
   cardwidth = cardheight*(2/3);
   assetsheight = wheight*(3/10);
@@ -51,11 +51,13 @@ function setup() {
   newgame_button = createButton('New Game');
   newgame_button.position(wwidth*(1/10),wheight*(9/10));
   newgame_button.style("background-color", "#FFA24A");
+  newgame_button.size(wwidth*(1/20));
   newgame_button.mousePressed(startnewgame);
   drawcard_button = createButton('Show Card');
   drawcard_button.position(wwidth*(1/10), wheight*(9/10));
   drawcard_button.mousePressed(showcards);
   drawcard_button.style("background-color", "#FFA24A");
+  drawcard_button.size(wwidth*(1/20));
   background('slateblue');
   image(assets[3],wwidth*(1/4), wheight*(1/10), wheight*(4/5), wheight*(4/5));
   newgame_button.show();
