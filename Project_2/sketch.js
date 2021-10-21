@@ -64,10 +64,6 @@ function setup() {
   drawcard_button.hide();
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
-
 function startnewgame(){
   
   background('lightskyblue');
