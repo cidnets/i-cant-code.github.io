@@ -41,8 +41,8 @@ function preload(){
 
 
 function setup() {
-  wwidth = windowWidth;
-  wheight = windowWidth*(3/4);
+  wwidth = windowWidth/3;
+  wheight = windowWidth*(3/4)/3;
   cardheight = wheight*(1/3);
   cardwidth = cardheight*(2/3);
   assetsheight = wheight*(3/10);
