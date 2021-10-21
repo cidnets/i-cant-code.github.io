@@ -51,13 +51,13 @@ function setup() {
   newgame_button = createButton('New Game');
   newgame_button.position(wwidth*(1/10),wheight*(9/10));
   newgame_button.style("background-color", "#FFA24A");
-  newgame_button.size(wwidth*(3/10));
+  newgame_button.size(wwidth*(1/5), AUTO);
   newgame_button.mousePressed(startnewgame);
   drawcard_button = createButton('Show Card');
   drawcard_button.position(wwidth*(1/10), wheight*(9/10));
   drawcard_button.mousePressed(showcards);
   drawcard_button.style("background-color", "#FFA24A");
-  drawcard_button.size(wwidth*(3/10));
+  drawcard_button.size(wwidth*(1/5), AUTO);
   background('slateblue');
   image(assets[3],wwidth*(1/4), wheight*(1/10), wheight*(4/5), wheight*(4/5));
   newgame_button.show();
