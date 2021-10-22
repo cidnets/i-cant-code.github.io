@@ -91,7 +91,7 @@ function startnewgame(){
   strokeWeight(2);
   fill('Black')
   text("Remaining Turns:", wwidth*(2/10), wheight*(1/10));
-  text(int(turn_counter), wwidth*(7/10), wheight*(1/10));
+  text(int(turn_counter)+1, wwidth*(7/10), wheight*(1/10));
   
   for (let i = 0; i <=turn_counter; i++){
     pickcard = int(random(your_cards.length));
