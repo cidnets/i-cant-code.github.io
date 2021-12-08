@@ -12,7 +12,7 @@ function draw() {
   
   if (mouseIsPressed){
     //stroke(map(mouseX,0,600,0,255,true));
-    //line(mouseX,mouseY,pmouseX,pmouseY);
+    line(mouseX,mouseY,pmouseX,pmouseY);
     array.push([mouseX,mouseY]);
     //line(width - mouseX,height - mouseY,width - pmouseX,height - pmouseY)
   }
