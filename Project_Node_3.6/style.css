@@ -8,6 +8,7 @@ body {
   width: 80%;
   text-align: center;
   font-family: 'DotGothic16', sans-serif;
+  color: white;
 }
 canvas {
   margin: auto;
